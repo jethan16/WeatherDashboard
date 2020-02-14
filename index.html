@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600&display=swap" rel="stylesheet">
+    <!-- <link
+        href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400|Open+Sans:300,400,600,700|Poppins:300,400,600,700&display=swap"
+        rel="stylesheet"> -->
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="content">
+        <aside class="aside">
+            <h2>Search for a City:</h2>
+            <div class="searchBox">
+                <input type="search" placeholder="City" class="search" id="searchBar">
+                <button class="searchButton" id="button" value="">
+                    <img src="assets/images/mag_glass_icon.png">
+                </button>
+            </div>
+            <div class="history">
+                <ul class="list" id="historyList">
+
+                </ul>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="current">
+                <div class="title"></div>
+                <div class="projection"></div>
+            </div>
+            <div class="forecast">
+                <div class="forecastTitle">
+                </div>
+                <div class="forecastRow">
+
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
